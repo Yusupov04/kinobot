@@ -48,3 +48,8 @@ async def bosh_sahifa(msg: types.Message):
     await msg.answer("Bosh sahifa", reply_markup=kinolar)
 
 
+@dp.message_handler(text="sadf")
+async def sadf(msg: types.Message):
+    await msg.answer("Sadf")
+
+
